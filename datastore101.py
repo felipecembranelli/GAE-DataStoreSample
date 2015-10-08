@@ -28,7 +28,6 @@ jinja_environment = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 
-
 class Conference(ndb.Model):
     title = ndb.StringProperty()
     city = ndb.StringProperty()
